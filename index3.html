@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/index3.css">
+    <title>Training 3</title>
+</head>
+<body class="main">
+    <div class="container">
+        <h1>JS Calculator</h1>
+        <div class="calculator_keys">
+            <div class="row">
+                <div class="col-3">
+                    <button class="numberBtn" id="clear_button">C</button>
+                </div>
+                <div class="col-9">
+                    <input type="number" readonly id="calcInput">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-3">
+                    <button class="numberBtn" data-value="7">7</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-value="8">8</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-value="9">9</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-type="plus">+</button>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-3">
+                    <button class="numberBtn" data-value="4">4</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-value="5">5</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-value="6">6</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-type="minus">-</button>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-3">
+                    <button class="numberBtn" data-value="1">1</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-value="2">2</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-value="3">3</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-type="multiply">*</button>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-3">
+                    <button class="numberBtn" data-value="0">0</button>
+                </div>
+                <div class="col-3">
+                    <button class="numberBtn" data-type="divide">/</button>
+                </div>
+                <div class="col-6">
+                    <button class="numberBtn" data-type="equal">=</button>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">
+            <h3 class="text-center col-12" id="result"></h3>
+        </div>-->
+    </div> 
+    <script src="js/index3.js"></script>
+</body>
+</html>
