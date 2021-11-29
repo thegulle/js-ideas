@@ -17,5 +17,5 @@ function getLocation() {
 function createMap(position) {
     latitude = position.coords.latitude;
     longitude = position.coords.longitude; 
-    mapContainer.setAttribute("src",rootMapUrl+latitude+","+longitude);
+    //mapContainer.setAttribute("src",rootMapUrl+latitude+","+longitude);
 }
